@@ -1,0 +1,231 @@
+#homeHeader{
+    .slide1{
+        background-image: url("");
+        height: 600px;
+        background-position: center;
+        transition: all .2s ease;
+        opacity: 1;
+        .slide-item{
+            display: none;
+        }
+    }
+}
+// <!----------
+// HISSE 2 
+// ----------->
+#hisseiki{
+    padding: 60px 0px;
+    .endEnjoy{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+        p{
+            font-size: 60px;
+        }
+    }
+}
+// <!----------
+// /HISSE 2 
+// ----------->
+// <!----------- 
+// hisse 3 
+// ------------>
+#hisseUc{
+    .elan{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .psp{
+        padding: 10px 15px;
+    }
+    .maincol{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin: 1% 20px;
+        position: relative;
+        &:hover{
+            transform: translateY(-12px);
+            transition: .3s ease;
+            box-shadow: 0 0 15px 3px rgba(24, 24, 24, 0.25);
+        }
+    }
+}
+    .qiymet1{
+        position: absolute;
+        width: 55%;
+        height: 30px;
+        background: #8dc645;
+        top: 0%;
+        left: 0%;
+        transform: translate(-5%,-25%);
+        color: white;
+        text-align: center;
+        }
+        .qiymet2{
+            position: absolute;
+            width: 50%;
+            height: 30px;
+            background: #1976bc;
+            top: 11%;
+            left: 0%;
+            transform: translate(-5%,-25%);
+            color: white;
+            text-align: center;
+            del{
+                opacity: 0.5;
+            }
+            }
+// <!----------- 
+    // /hisse 3 
+// ------------>
+// <!-----------
+// hisse 4
+// ----------->
+#hissedord{
+    padding: 60px 0px;
+    .endEnjoy{
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        font-size: 60px;
+    }
+}
+.tcBorder{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        height: 25px !important;
+        width: 100% !important;
+        z-index: -5;
+        left: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    }
+}
+// <!------
+// /hisse 4
+// ---------->
+// <!------
+// hisse 5
+// ---------->
+#hissebes{
+    .hmainimg{
+        margin: 15px 0;
+         img{
+          width: 100%;
+          height: 300px;
+          overflow: hidden;
+          margin-top: 15px ;
+         }
+         .mainimgdiv{
+             padding: 30px;
+             overflow: hidden;
+             text-decoration: none;
+             width: 100%;
+             height: 300px;
+             background: #F1F1F1;
+             margin-top: 15px;
+             .imgmain{
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+                margin-left: 10px;
+                margin-right: 10px;             }
+         }
+         .mainimgdi{
+            padding: 30px;
+            overflow: hidden;
+            text-decoration: none;
+            width: 100%;
+            height: 300px;
+            margin-top: 15px;
+            background: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+            color: white;
+         }
+     }
+}
+.qiymet3{
+    position: absolute;
+    width: 60%;
+    height: 25px;
+    background: #8dc645;
+    top: 0%;
+    left: 0%;
+    transform: translate(5%,50%);
+    color: white;
+    text-align: center;
+    }
+// <!------
+// /hisse 5
+// ---------->
+#hissealti{
+    padding: 60px 0px;
+    .hisealti{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    p{
+        font-size: 60px;
+    }
+    }
+}
+#hisseyeddi{
+    p{
+        margin: 2px;
+    }
+    .icon{
+        text-align: center;
+        .picon{
+            font-size: 12px;
+        }
+        .pico{
+            font-size: 30px;
+        }
+    }
+}
+.fa-archway{
+    font-size: 60px;
+    color: #8dc645;
+}
+.mainbtn{
+    background: #1976bc;
+    color: white; 
+    width: 25%;
+    padding: 15px;
+    left: 40%;
+    top: 50%;
+    border: none;
+    outline: none;
+    position: relative;
+    transition: .2s ease-in-out;
+    z-index: 44;
+    &:hover{
+        transform: translateY(-5px);
+        &::after{
+            height: 100%;
+            z-index: -11;
+        }
+    }
+        &::after{
+            content:'';
+            position: absolute;
+            bottom: 0;
+            height: 0;
+            transition: .2s ease;
+            width: 100%;
+            left: 0;
+            background: linear-gradient(to bottom,#1976bc 20%,#8dc645 100%);
+        }
+}
